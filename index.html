@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformador Mágico</title>
+
+  <link rel="shortcut icon" href="assets/icon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="column">
+        <section class="aurora_logo_container">
+          <img
+            class="aurora_logo"
+            src="assets/logo.png"
+            alt="Aurora nerdola"
+          />
+        </section>
+      </div>
+      <section class="data_input">
+        <textarea name="input" id="input" rows="10" placeholder="Escreva sua magia..."></textarea>
+        <div class="data_input_action">
+          <div class="data_input_info">
+            <span class="change_tema"> info </span>
+            <p class="data_input_paragraph">
+              Tudo que você escrever se tornará minúsculo.
+            </p>
+          </div>
+          <div class="data_input_button">
+            <button class="button_spell btn">Feitiço Dúplice</button>
+            <button class="button_dispel btn">Estranheza</button>
+          </div>
+        </div>
+      </section>
+      <section class="data_output">
+        <section class="data_output_container">
+          <p class="magic_text"></p>
+          <img class="data_output_image" src="assets/Aurora Principal.png" alt="Aurora linda em sua skin padrão.">
+          <div class="data_output_info">
+            <h2 class="data_output_h2">Aguardando envio da sua magia.</h2>
+            <p class="data_output_paragraph">
+              A magia que você escrever será exibida aqui.
+            </p>
+          </div>
+        </section>
+        <button class="data_output_copy btn" id="button_copy" title="Aperte aqui para copiar a sua magia.">
+          Copiar
+        </button>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="text_footer">
+      Feito com ódio pelo
+    <a href="https://instagram.com/luiz_001211" target="_blank">Aster</a>
+    </p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
